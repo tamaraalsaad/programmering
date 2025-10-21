@@ -14,10 +14,19 @@ public class ovning1 {
         //  vid olika tillfällen (inläsning av tal respektive utskrift av namn)
             String[] nams = {"Ada", "Beda", "Cålle"};
             Scanner scan =new Scanner(System.in);
+        System.out.println("Skriv in seffra");
+
+            int i= scan.nextInt();
+            try {
+                System.out.println( nams[i-1]);
+            }catch (ArrayIndexOutOfBoundsException aiode){
+                System.out.println("något gick fel" + aiode);
+            }
+
 
 
 
             }
         }
-    }
+
 
