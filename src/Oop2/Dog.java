@@ -2,6 +2,7 @@ package Oop2;
 
 public class Dog  {
     private String name;
+
     public Dog(String name){
         this.name=name;
     }
@@ -11,4 +12,6 @@ public class Dog  {
     public void bark(){
         System.out.println("barking...");
     }
-}
+    }
+
+

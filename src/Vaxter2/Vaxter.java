@@ -2,7 +2,7 @@ package Vaxter2;
 
 import java.util.Scanner;
 
-public class vaxter {
+public class Vaxter {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

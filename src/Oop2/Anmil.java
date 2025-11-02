@@ -1,6 +1,6 @@
 package Oop2;
 
-public class animal {
+public class Anmil {
     public static void main(String[] args) {
 
         Frog myFrog = new Frog("faddie",5);
@@ -12,4 +12,11 @@ public class animal {
         myDog.bark();
 
     }
-}
+
+    }
+
+
+
+
+
+

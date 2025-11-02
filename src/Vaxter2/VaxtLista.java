@@ -5,6 +5,7 @@ public class VaxtLista {
         String namn;
         double hojd;
         String plats;
+
         public Plants(String namn, double hojd, String plats) {
             this.namn = namn;
             this.hojd = hojd;
@@ -16,3 +17,4 @@ public class VaxtLista {
         }
     }
 }
+
