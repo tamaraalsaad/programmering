@@ -16,8 +16,8 @@ public class Vacke3B {
             nameList.add(name);
         }
         System.out.println("alla name");
-        for (String n:nameList){
-            System.out.println(n);
+        for (int i=0;i< nameList.size();i++){
+            System.out.println(i);
         }
         if (! nameList.isEmpty()) {
             System.out.println("skriva nytt namn på första platsen  ");
