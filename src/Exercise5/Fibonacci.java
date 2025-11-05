@@ -1,6 +1,5 @@
 package Exercise5;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Scanner;
 
